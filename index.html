@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Convite Especial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Música de fundo (Substitua pelo link ou nome do seu arquivo MP3) -->
+    <audio id="musica" loop>
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Tela Inicial para ativar a música -->
+    <div id="tela-inicial" class="tela">
+        <button id="btn-abrir" onclick="abrirConvite()">Abrir Convite ✉️</button>
+    </div>
+
+    <!-- Container do Convite -->
+    <div id="convite" class="tela escondido">
+        <div class="wrapper-convite animate-entrada">
+            
+            <!-- A sua imagem do Canva de fundo -->
+            <img src="convite.png" alt="Convite" class="imagem-convite">
+
+            <!-- Áreas clicáveis (Botões invisíveis sobrepostos) -->
+            <!-- Ajuste o link do Google Maps e do seu WhatsApp abaixo -->
+            <a href="https://maps.google.com" target="_blank" class="botao-invisivel" id="btn-mapa"></a>
+            <a href="https://wa.me/5500999999999" target="_blank" class="botao-invisivel" id="btn-wpp"></a>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
