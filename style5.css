@@ -20,34 +20,34 @@ body {
     display: block;
 }
 
-.botao-invisivel {
+
+
+.botao-local {
     position: absolute;
-
-    width: 800px;
-    height: 1000px;
-
+    width: 250px;
+    height: 80px;
     left: 50%;
-    bottom: -10px;
-
+    bottom: 300px;
     transform: translateX(-50%);
-
-    background: transparent;
     z-index: 10;
 }
 
-#btn-abrir {
+.botao-confirmacao {
     position: absolute;
-    bottom: 200px;
+    width: 250px;
+    height: 80px;
     left: 50%;
+    bottom: 200px;
     transform: translateX(-50%);
+    z-index: 10;
+}
 
-    width: 600px;
-    height: 1155.550px;
-
-    background: transparent;
-    border: none;
-    color: transparent;
-
-    cursor: pointer;
+.botao-presentes {
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
     z-index: 10;
 }

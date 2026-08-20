@@ -35,19 +35,18 @@ body {
     z-index: 10;
 }
 
-#btn-abrir {
+#btn-proximo {
     position: absolute;
     bottom: 200px;
     left: 50%;
     transform: translateX(-50%);
 
-    width: 600px;
-    height: 1155.550px;
+    width: 500px;
+    height: 400px;
 
     background: transparent;
     border: none;
-    color: transparent;
 
-    cursor: pointer;
     z-index: 10;
+    cursor: pointer;
 }
