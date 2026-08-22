@@ -10,7 +10,7 @@
 
    <div class="pagina">
 
-      <video class="video-convite" autoplay muted playsinline loop controls>
+      <video class="video-convite" autoplay muted playsinline>
          <source src="1.mp4" type="video/mp4">
       </video>
 
@@ -19,11 +19,10 @@
   </div>
 
     <!-- Música de fundo (Substitua pelo link ou nome do seu arquivo MP3) -->
-    <audio id="musica" loop>
-        <source src="musica.mp3" type="audio/mpeg">
+    <audio id="musica" controls>
+        <source src="./musica.mp3" type="audio/mpeg">
     </audio>
-
-    
-    <script src="script.js"></script>
+    <button id="botao-musica" class="botao-musica">🔊</button>
+ 
 </body>
 </html>
