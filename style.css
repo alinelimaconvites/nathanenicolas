@@ -1,62 +1,111 @@
-body {
-
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
+.pagina {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
 
+    display: none !important;
+}
+
+.pagina.ativa {
+    display: block !important;
+}
 
 .video-convite {
     width: 100%;
     height: 100%;
+
     object-fit: cover;
-    <!--display: block;>
+    display: block;
 }
 
-.botao-invisivel {
-    position: absolute;
 
-    width: 800px;
-    height: 1000px;
+/* BOTÃO DA MÚSICA */
 
-    left: 50%;
-    bottom: -10px;
+.botao-musica {
+    position: fixed;
 
-    transform: translateX(-50%);
+    right: 20px;
+    bottom: 20px;
 
-    background: transparent;
-    z-index: 10;
+    width: 50px;
+    height: 50px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.85);
+
+    font-size: 22px;
+
+    z-index: 9999;
 }
 
-#btn-abrir {
-    position: absolute;
-    bottom: 200px;
-    left: 50%;
-    transform: translateX(-50%);
 
-    width: 600px;
-    height: 1155.550px;
+/* BOTÃO AVANÇAR */
+
+.botao-avancar {
+    position: absolute;
+
+    left: 50%;
+    bottom: -20%;
+
+    width: 1550px;
+    height: 900px;
+
+    transform: translateX(-50%);
 
     background: transparent;
     border: none;
-    color: transparent;
+
+    z-index: 300;
 
     cursor: pointer;
+
+}
+
+.botao-local {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    left: 50%;
+    bottom: 320px;
+    transform: translateX(-50%);
     z-index: 10;
 }
 
-.pagina {
-    position: relative;
-    width: 100%;
-    height: 100vh;
+.botao-confirmacao {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    left: 50%;
+    bottom: 200px;
+    transform: translateX(-50%);
+    z-index: 10;
 }
 
-#musica {
+.botao-presentes {
     position: absolute;
-    bottom: 30px;
-    right: 20px;
-    z-index: 20;
+    width: 250px;
+    height: 100px;
+    left: 50%;
+    bottom: 90px;
+    transform: translateX(-50%);
+    z-index: 10;
+background: transparent;
+    border: none;
+cursor: pointer;
 }
