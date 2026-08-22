@@ -61,17 +61,17 @@ body {
     position: absolute;
 
     left: 50%;
-    bottom: -20%;
+    bottom: 1%;
 
-    width: 1550px;
-    height: 900px;
+    width: 155%;
+    height: 90%;
 
     transform: translateX(-50%);
 
     background: transparent;
     border: none;
 
-    z-index: 300;
+    z-index: 300%;
 
     cursor: pointer;
 
@@ -79,30 +79,30 @@ body {
 
 .botao-local {
     position: absolute;
-    width: 250px;
-    height: 100px;
+    width: 35%;
+    height: 13%;
     left: 50%;
-    bottom: 320px;
+    bottom: 50%;
     transform: translateX(-50%);
     z-index: 10;
 }
 
 .botao-confirmacao {
     position: absolute;
-    width: 250px;
-    height: 100px;
+    width: 35%;
+    height: 13%;
     left: 50%;
-    bottom: 200px;
+    bottom: 35%;
     transform: translateX(-50%);
     z-index: 10;
 }
 
 .botao-presentes {
     position: absolute;
-    width: 250px;
-    height: 100px;
+    width: 40%;
+    height: 13%;
     left: 50%;
-    bottom: 90px;
+    bottom: 18%;
     transform: translateX(-50%);
     z-index: 10;
 background: transparent;
